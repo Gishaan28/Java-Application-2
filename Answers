@@ -1,0 +1,138 @@
+Question1:
+Package created.
+
+Question2:
+Done in Vehicle.java
+
+Question3:
+Package Created.
+
+Question4:
+Done in Vehicle.java
+
+Question5:
+Done in Car.java
+
+Question6:
+Done in Boat.java
+
+Question7:
+Done in Product.java
+
+Question8: A class is like a datatype which contains attributes and methods for its objects.
+An object is an instance of a class. It has access to the class's attributes and methods.
+
+Question9: A constructor is a method that runs when an object is created. There are 3 types
+of constructors: default, no arguments, and parameterized constructor.
+
+Question10:
+public class Office {
+	Office() {
+	}
+}
+
+Question 11:
+Implements keyword is used when declaring a class to inherit the methods associated with
+an interface.
+
+Question12:
+3 places where final keyword is used are when declaring a variable, method, and class.
+
+Question13:
+4 concepts of OOP are encapsulation, polymorphism, inheritance, and abstraction.
+
+Question14:
+Constructor
+
+Question15:
+a. Same class.
+b. No.
+
+Question16:
+In interface, only function definitions are written. Body of any function is not written. 
+An abstract class can have functions that are abstract or normal functions. 
+A class can inherit only one abstract class whereas it can inherit multiple interfaces.
+ 
+Question17: 
+Void keyword means that the value is null or None or "nothing". It is often used to define the 
+return type of a function.
+
+Question18:
+Overloading is writing multiple functions in a class with the same name but different parameter. 
+The function would be called depending on the parameter provided during the function call.
+It is done in the following way:
+public class Office {
+public static void function1(){};
+public static void function1(int s){};
+public static void function1(int s, int ss){};
+}
+
+Question19:
+A static method in java can be overridden by using the @Override keyword before starting the method.
+
+Question20:
+Done in Answers.java
+
+Question21:
+a.Access modifiers are keywords used to declare classes, methods, and variables to restrict their
+access from different parts of a program. The main access modifiers are default, public, private,
+and protected.
+b. Local variables are variables that are declared locally. They are an instance of some kind of
+class or datatype. 
+Instance variables are objects of a class that inherit all the attributes and methods associated
+with that class. An instance variable can either be a local variable or a global variable.
+
+Question22:
+a. Constructors are methods that are run whenever an object of a class is declared. Constructors 
+do not have a return type. There are 3 types of constructors: default, parameterized, and
+constructors with no arguments.
+Methods in java require to be called explicitly. They can either be static or non-static methods.
+Static methods can be called without an object whereas non-static methods need an object 
+to be called.
+b. this() is used inside a class to refer to variables and methods declared in the same class.
+It is used to refer the current object in a method or constructor.
+super() is used inside a class to refer to variables and methods declared in the parent class.
+
+Question23:
+Method overloading is a type of polymorphism where methods are declared with the same name 
+but different parameters. For example:
+public class Office {
+public static void function1(){};
+public static void function1(int s){};
+public static void function1(int s, int ss){};
+}
+Method overriding is also a type of polymorphism where methods written in parent class are 
+overridden by child classes. It requires to uses the @Override keyword to override a parent method.
+For example:
+public class Vehicle {
+	private String type;
+	private int capacity;
+	public void printVehicalDetails() {
+		capacity = 2;
+	}
+	public static void runVehicle() {
+	}
+}
+
+public class Boat extends Vehicle {
+	private int engineCount;
+	@Override
+	public void printVehicalDetails() {
+		super.capacity = 6;
+	}
+	public void runVehicle() {
+		System.out.println("Boat is running");
+	}
+}
+
+Question24:
+Done in Student.java and StudentDetails.java
+
+Question25:
+Done in answers.java
+
+Question26:
+Done in Department.java
+
+Question27:
+Done in answers.java
